@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Tricks - Hollow Knight: Silksong Complete Guide</title>
+    <meta name="description" content="Hollow Knight: Silksong tips and tricks. Advanced strategies, hidden secrets, sequence breaking, and exploration tips.">
+    <meta name="keywords" content="Hollow Knight Silksong tips, Silksong tricks, hidden secrets, exploration tips, speedrun guide">
+    <link rel="canonical" href="https://hollow-knight-silksong.wiki/tips.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        amber: { 300: '#FCD34D', 400: '#FBBF24', 500: '#D97706', 600: '#B45309' },
+                        silk: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1408 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(217, 119, 6, 0.4); }
+        .tip-card { background: linear-gradient(135deg, rgba(217, 119, 6, 0.08) 0%, rgba(18, 18, 26, 0.9) 100%); border: 1px solid rgba(217, 119, 6, 0.15); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-amber-500/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">HK</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wider">HOLLOW KNIGHT</span>
+                        <span class="block text-xs text-amber-400/70">Silksong Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="abilities.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Abilities</a>
+                    <a href="charms.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Charms</a>
+                    <a href="tips.html" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="font-cinzel text-4xl md:text-5xl font-bold text-white mb-4 tracking-wider">TIPS & <span class="text-amber-400">TRICKS</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg">Advanced strategies and hidden secrets.</p>
+        </div>
+
+        <!-- Beginner Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="w-8 h-8 bg-green-500/20 rounded-lg flex items-center justify-center text-green-400">B</span>
+                BEGINNER TIPS
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">1</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Map Every Wall</h3>
+                            <p class="text-gray-400 text-sm">Stand near walls to reveal map details. The more you explore, the more complete your map becomes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">2</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Prioritize Health</h3>
+                            <p class="text-gray-400 text-sm">Find Health Fragments early. Boss fights are brutal with low health. Always have backup.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">3</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Learn Attack Tells</h3>
+                            <p class="text-gray-400 text-sm">Every enemy has a visual cue before attacking. Watch and learn patterns before engaging.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <span class="text-green-400 font-bold">4</span>
+                        </div>
+                        <div>
+                            <h3 class="text-white font-semibold mb-2">Use the Environment</h3>
+                            <p class="text-gray-400 text-sm">Spikes, pits, and environmental hazards can damage enemies too. Use them strategically.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Tips -->
+        <section class="mb-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="w-8 h-8 bg-yellow-500/20 rounded-lg flex items-center justify-center text-yellow-400">A</span>
+                ADVANCED STRATEGIES
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        Silk Combo Chains
+                    </h3>
+                    <p class="text-gray-400 text-sm">Chain silk abilities for massive damage. Thread Toss → Silk Slash → Silk Storm creates devastating combos.</p>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        Boss Weakness Exploit
+                    </h3>
+                    <p class="text-gray-400 text-sm">Each boss has elemental weaknesses. Fire bosses hate silk ice. Ice bosses hate fire silk. Experiment!</p>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        Health Management
+                    </h3>
+                    <p class="text-gray-400 text-sm">Heal only when safe. Mid-fight heals invite combos. Wait for clear openings to heal.</p>
+                </div>
+                <div class="tip-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-3 flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        Backtrack Rewards
+                    </h3>
+                    <p class="text-gray-400 text-sm">New abilities unlock old areas. Return to Area 1 after getting Wall Jump for secret passages.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hidden Secrets -->
+        <section>
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center text-purple-400">?</span>
+                HIDDEN SECRETS
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <span class="text-purple-400 text-xl">🔍</span>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Secret 翠丝炉</h3>
+                    <p class="text-gray-400 text-sm">In The Fungal Wastes, bomb the cracked wall near the second save point. Leads to hidden 翠丝炉 with exclusive charm.</p>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <span class="text-purple-400 text-xl">🎭</span>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Silk Mother's Secret</h3>
+                    <p class="text-gray-400 text-sm">Complete all 8翠丝炉 and return to Silk Mother. Unlocks "True Weaver" ending variant with extended cutscene.</p>
+                </div>
+                <div class="tip-card card-hover rounded-xl p-5">
+                    <div class="w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center mb-3">
+                        <span class="text-purple-400 text-xl">🏆</span>
+                    </div>
+                    <h3 class="text-white font-semibold mb-2">Completionist Reward</h3>
+                    <p class="text-gray-400 text-sm">100% completion (all charms, abilities, collectibles) unlocks Concept Art gallery and "Master Weaver" title.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-silk-900 border-t border-amber-500/20 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Hollow Knight: Silksong Guide. All rights reserved. Not affiliated with Team Cherry.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charms - Hollow Knight: Silksong Complete Guide</title>
+    <meta name="description" content="Hollow Knight: Silksong all charms guide. Best charm builds for combat, mobility, and exploration.">
+    <meta name="keywords" content="Hollow Knight Silksong charms, charm builds, Hornet charms, best charms guide">
+    <link rel="canonical" href="https://hollow-knight-silksong.wiki/charms.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        amber: { 300: '#FCD34D', 400: '#FBBF24', 500: '#D97706', 600: '#B45309' },
+                        silk: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1408 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(217, 119, 6, 0.4); }
+        .charm-card { background: linear-gradient(135deg, rgba(217, 119, 6, 0.08) 0%, rgba(18, 18, 26, 0.9) 100%); border: 1px solid rgba(217, 119, 6, 0.15); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-amber-500/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">HK</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wider">HOLLOW KNIGHT</span>
+                        <span class="block text-xs text-amber-400/70">Silksong Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="abilities.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Abilities</a>
+                    <a href="charms.html" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Charms</a>
+                    <a href="tips.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="font-cinzel text-4xl md:text-5xl font-bold text-white mb-4 tracking-wider">CHARM <span class="text-amber-400">BUILDS</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg">Best charm combinations for combat, exploration, and boss fights.</p>
+        </div>
+
+        <!-- Notches Info -->
+        <section class="mb-10">
+            <div class="charm-card rounded-2xl p-6 mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                    <div>
+                        <div class="text-4xl mb-2">💎</div>
+                        <h3 class="text-amber-400 font-cinzel font-bold text-xl">20</h3>
+                        <p class="text-gray-500 text-sm">Total Notches</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-2">🧵</div>
+                        <h3 class="text-amber-400 font-cinzel font-bold text-xl">30+</h3>
+                        <p class="text-gray-500 text-sm">Unique Charms</p>
+                    </div>
+                    <div>
+                        <div class="text-4xl mb-2">⚡</div>
+                        <h3 class="text-amber-400 font-cinzel font-bold text-xl">5</h3>
+                        <p class="text-gray-500 text-sm">Charm Notches per Build</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combat Builds -->
+        <section class="mb-10">
+            <h2 class="font-cinzel text-xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="text-amber-400">⚔️</span> COMBAT BUILDS
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="charm-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center text-sm">1</span>
+                        Balanced Fighter
+                    </h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Quick Slash (+1 notches)</p>
+                        <p>• Deep Focus (+3 notches)</p>
+                        <p>• Steel Soul (+2 notches)</p>
+                        <p>• Silk Boost (+2 notches)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">8 notches</span>
+                    </div>
+                </div>
+                <div class="charm-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center text-sm">2</span>
+                        Aggressive DPS
+                    </h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Fury (+2 notches)</p>
+                        <p>• Bloodlust (+2 notches)</p>
+                        <p>• Attack Master (+3 notches)</p>
+                        <p>• Second Wind (+1 notch)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">8 notches</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobility Builds -->
+        <section class="mb-10">
+            <h2 class="font-cinzel text-xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="text-amber-400">🧵</span> MOBILITY BUILDS
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="charm-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center text-sm">1</span>
+                        Explorer Build
+                    </h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Light Weight (+1 notches)</p>
+                        <p>• Dash Master (+2 notches)</p>
+                        <p>• Spore Sense (+2 notches)</p>
+                        <p>• Quick Cast (+1 notch)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">6 notches</span>
+                    </div>
+                </div>
+                <div class="charm-card rounded-2xl p-6">
+                    <h3 class="text-amber-400 font-semibold mb-4 flex items-center gap-2">
+                        <span class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center text-sm">2</span>
+                        Speedrunner
+                    </h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Sprint PRO (+2 notches)</p>
+                        <p>• Thread Haste (+2 notches)</p>
+                        <p>• Wall Expert (+1 notch)</p>
+                        <p>• Infinite Air (+2 notches)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">7 notches</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boss Builds -->
+        <section>
+            <h2 class="font-cinzel text-xl font-bold text-white mb-6 tracking-wider flex items-center gap-3">
+                <span class="text-amber-400">👑</span> BOSS FIGHT BUILDS
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="charm-card rounded-2xl p-6 border border-amber-500/30">
+                    <h3 class="text-amber-400 font-semibold mb-4">Tank Build</h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Steel Body (+4 notches)</p>
+                        <p>• Regeneration (+3 notches)</p>
+                        <p>• Thorns (+2 notches)</p>
+                        <p>• Last Stand (+2 notches)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">11 notches</span>
+                        <span class="text-gray-500 text-xs ml-2">(Overcap with Silk Mother blessing)</span>
+                    </div>
+                </div>
+                <div class="charm-card rounded-2xl p-6 border border-amber-500/30">
+                    <h3 class="text-amber-400 font-semibold mb-4">Evasion Build</h3>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <p>• Shadow Cloak (+2 notches)</p>
+                        <p>• Dash PRO (+2 notches)</p>
+                        <p>• Ghost Form (+2 notches)</p>
+                        <p>• Second Chance (+2 notches)</p>
+                    </div>
+                    <div class="mt-4 p-3 bg-silk-700/50 rounded-lg">
+                        <span class="text-gray-400 text-xs">Total:</span> <span class="text-amber-400 font-medium">8 notches</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-silk-900 border-t border-amber-500/20 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Hollow Knight: Silksong Guide. All rights reserved. Not affiliated with Team Cherry.</p>
+        </div>
+    </footer>
+</body>
+</html>

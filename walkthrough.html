@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walkthrough - Hollow Knight: Silksong Complete Guide</title>
+    <meta name="description" content="Hollow Knight: Silksong complete walkthrough. Area-by-area guide with all silk abilities, collectibles, and hidden passages.">
+    <meta name="keywords" content="Hollow Knight Silksong walkthrough, Silksong guide, Hornet walkthrough, Pharloom guide">
+    <link rel="canonical" href="https://hollow-knight-silksong.wiki/walkthrough.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        amber: { 300: '#FCD34D', 400: '#FBBF24', 500: '#D97706', 600: '#B45309' },
+                        silk: { 900: '#0a0a0f', 800: '#12121a', 700: '#1a1a25', 600: '#252535' }
+                    },
+                    fontFamily: { 'cinzel': ['Cinzel', 'serif'], 'inter': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: radial-gradient(ellipse at top, #1a1408 0%, #0a0a0f 50%, #050508 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(217, 119, 6, 0.4); }
+        .area-card { background: linear-gradient(180deg, rgba(217, 119, 6, 0.08) 0%, rgba(10, 10, 15, 0.95) 100%); border: 1px solid rgba(217, 119, 6, 0.15); }
+    </style>
+</head>
+<body class="text-gray-100 antialiased">
+    <header class="glass sticky top-0 z-50 border-b border-amber-500/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center shadow-lg shadow-amber-500/20">
+                        <span class="font-cinzel font-bold text-black text-lg">HK</span>
+                    </div>
+                    <div>
+                        <span class="font-cinzel font-bold text-xl text-white tracking-wider">HOLLOW KNIGHT</span>
+                        <span class="block text-xs text-amber-400/70">Silksong Guide</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center space-x-1">
+                    <a href="/" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Home</a>
+                    <a href="walkthrough.html" class="px-5 py-2 text-amber-400 bg-amber-500/10 rounded-lg border border-amber-500/30 font-medium">Walkthrough</a>
+                    <a href="bosses.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Bosses</a>
+                    <a href="abilities.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Abilities</a>
+                    <a href="charms.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Charms</a>
+                    <a href="tips.html" class="px-5 py-2 text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h1 class="font-cinzel text-4xl md:text-5xl font-bold text-white mb-4 tracking-wider">COMPLETE <span class="text-amber-400">WALKTHROUGH</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto text-lg">Area-by-area guide with all objectives and hidden secrets.</p>
+        </div>
+
+        <!-- Areas -->
+        <div class="space-y-6">
+            <!-- Area 1 -->
+            <div class="area-card card-hover rounded-2xl border border-white/5 overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center border border-amber-500/30">
+                                <span class="text-amber-400 font-cinzel font-bold text-xl">01</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cinzel text-xl font-bold text-white tracking-wider">THE WARREN</h3>
+                                <p class="text-gray-500 text-sm">Starting Area - Hornet's Prison</p>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-green-500/20 text-green-400 text-xs font-medium rounded-full border border-green-500/30">Tutorial</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Duration:</span><span class="text-white text-sm font-medium ml-2">1-2 hours</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Abilities:</span><span class="text-amber-400 text-sm font-medium ml-2">3/12</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Collectibles:</span><span class="text-amber-400 text-sm font-medium ml-2">8/45</span></div>
+                    </div>
+                    <div class="border-t border-white/5 pt-4">
+                        <h4 class="text-white font-semibold mb-2">Objectives:</h4>
+                        <ul class="text-gray-400 text-sm space-y-1">
+                            <li>• Escape the prison cell</li>
+                            <li>• Learn basic silk abilities (Slash, Dash)</li>
+                            <li>• Meet the Silk Mother for first charm</li>
+                            <li>• Defeat the introductory boss</li>
+                            <li>• Enter the main kingdom</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Area 2 -->
+            <div class="area-card card-hover rounded-2xl border border-white/5 overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center border border-amber-500/30">
+                                <span class="text-amber-400 font-cinzel font-bold text-xl">02</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cinzel text-xl font-bold text-white tracking-wider">THE HIVE</h3>
+                                <p class="text-gray-500 text-sm">Bees Territory - Honey Depths</p>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-yellow-500/20 text-yellow-400 text-xs font-medium rounded-full border border-yellow-500/30">Main Story</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Duration:</span><span class="text-white text-sm font-medium ml-2">2-3 hours</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Abilities:</span><span class="text-amber-400 text-sm font-medium ml-2">5/12</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Collectibles:</span><span class="text-amber-400 text-sm font-medium ml-2">15/45</span></div>
+                    </div>
+                    <div class="border-t border-white/5 pt-4">
+                        <h4 class="text-white font-semibold mb-2">Objectives:</h4>
+                        <ul class="text-gray-400 text-sm space-y-1">
+                            <li>• Navigate the honeycomb maze</li>
+                            <li>• Acquire the Wasp Form silk ability</li>
+                            <li>• Find the Hive Knight's memory</li>
+                            <li>• Collect 3翠丝炉 fragments</li>
+                            <li>• Boss: The Brùm娃娃 (mini-boss)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Area 3 -->
+            <div class="area-card card-hover rounded-2xl border border-white/5 overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center border border-amber-500/30">
+                                <span class="text-amber-400 font-cinzel font-bold text-xl">03</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cinzel text-xl font-bold text-white tracking-wider">THE FUNGAL WORMS</h3>
+                                <p class="text-gray-500 text-sm">Spore Caves - Mushroom Maze</p>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-orange-500/20 text-orange-400 text-xs font-medium rounded-full border border-orange-500/30">Critical</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Duration:</span><span class="text-white text-sm font-medium ml-2">3-4 hours</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Abilities:</span><span class="text-amber-400 text-sm font-medium ml-2">8/12</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Collectibles:</span><span class="text-amber-400 text-sm font-medium ml-2">25/45</span></div>
+                    </div>
+                    <div class="border-t border-white/5 pt-4">
+                        <h4 class="text-white font-semibold mb-2">Objectives:</h4>
+                        <ul class="text-gray-400 text-sm space-y-1">
+                            <li>• Navigate spore-filled caverns</li>
+                            <li>• Learn the Thread Lark silk ability</li>
+                            <li>• Solve the mushroom light puzzles</li>
+                            <li>• Find the ancient spore shrine</li>
+                            <li>• Boss: Massive fungal guardian</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Area 4 -->
+            <div class="area-card card-hover rounded-2xl border border-white/5 overflow-hidden">
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center border border-amber-500/30">
+                                <span class="text-amber-400 font-cinzel font-bold text-xl">04</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cinzel text-xl font-bold text-white tracking-wider">THE PEAK</h3>
+                                <p class="text-gray-500 text-sm">Mountain Summit - Ancient Peak</p>
+                            </div>
+                        </div>
+                        <span class="px-3 py-1 bg-red-500/20 text-red-400 text-xs font-medium rounded-full border border-red-500/30">Finale</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Duration:</span><span class="text-white text-sm font-medium ml-2">4-5 hours</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Abilities:</span><span class="text-amber-400 text-sm font-medium ml-2">12/12</span></div>
+                        <div class="bg-silk-700/50 rounded-lg p-3"><span class="text-gray-400 text-xs">Collectibles:</span><span class="text-amber-400 text-sm font-medium ml-2">45/45</span></div>
+                    </div>
+                    <div class="border-t border-white/5 pt-4">
+                        <h4 class="text-white font-semibold mb-2">Objectives:</h4>
+                        <ul class="text-gray-400 text-sm space-y-1">
+                            <li>• Scale the mountain peak</li>
+                            <li>• Master all silk abilities</li>
+                            <li>• Face the final trial</li>
+                            <li>• Confront the true final boss</li>
+                            <li>• Unlock the secret ending</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collectibles -->
+        <section class="mt-12">
+            <h2 class="font-cinzel text-2xl font-bold text-white mb-6 tracking-wider">COLLECTIBLE TYPES</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="glass rounded-xl p-4 text-center border border-white/5">
+                    <div class="text-3xl mb-2">🧵</div>
+                    <h3 class="text-white font-semibold text-sm">Silk Bits</h3>
+                    <p class="text-gray-500 text-xs mt-1">100 total in game</p>
+                </div>
+                <div class="glass rounded-xl p-4 text-center border border-white/5">
+                    <div class="text-3xl mb-2">💎</div>
+                    <h3 class="text-white font-semibold text-sm">Charm Notches</h3>
+                    <p class="text-gray-500 text-xs mt-1">20 total in game</p>
+                </div>
+                <div class="glass rounded-xl p-4 text-center border border-white/5">
+                    <div class="text-3xl mb-2">🔥</div>
+                    <h3 class="text-white font-semibold text-sm">翠丝炉 Fragments</h3>
+                    <p class="text-gray-500 text-xs mt-1">8 total in game</p>
+                </div>
+                <div class="glass rounded-xl p-4 text-center border border-white/5">
+                    <div class="text-3xl mb-2">🗺️</div>
+                    <h3 class="text-white font-semibold text-sm">Map Fragments</h3>
+                    <p class="text-gray-500 text-xs mt-1">All areas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-silk-900 border-t border-amber-500/20 py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Hollow Knight: Silksong Guide. All rights reserved. Not affiliated with Team Cherry.</p>
+        </div>
+    </footer>
+</body>
+</html>
